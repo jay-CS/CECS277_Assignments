@@ -53,11 +53,11 @@ public class Products {
 	 * @return true if they are the same, otherwise false
 	 */
 	boolean equals(Products p) {
-		if(this.name.equals(p)) {
-			return true;
-		}
-		else if(p == null) {
+		if(p == null) {
 			return false;
+		}
+		else if(this.name.equals(p)) {
+			return true;
 		}
 		else {
 			return false;
